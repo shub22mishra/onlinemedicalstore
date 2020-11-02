@@ -1,0 +1,365 @@
+.page {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  width: 1505px;
+}
+
+.header {
+  width: 1505px;
+  height: 100px;
+  /* border-style:; */
+  color: #ffffff;
+  padding: 0px;
+  margin: 0px;
+  margin-top: px;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  float: right;
+  padding-right: 20px;
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+  float: right;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.links {
+  width: 1505px;
+  height: 100px;
+  border-style: groove;
+  color: #ffffff;
+  padding-right: 20px;
+  margin: 0px;
+  background-color: #3399cc;
+}
+.rightmenu {
+  width: 80%;
+  height: 20px;
+  float: right;
+}
+rightmenu ul {
+  margin-top: 200px;
+}
+
+.rightmenu ul li {
+  font-family: "Montserrat", sans-serif;
+  display: inline-table;
+  list-style: none;
+  font-size: 16px;
+  color: white;
+  /* font-weight:; */
+  line-height: 140px;
+  margin-right: 50px;
+  text-transform: uppercase;
+  /* float:; */
+}
+.linkspart {
+  width: 1505px;
+  height: 30px;
+  border-style: groove;
+  margin-top: 5px;
+  background-color: #0000cc;
+}
+.rightmenu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.rightmenu a:hover {
+  background-color: #ff0000;
+  /* color:#000CC; */
+}
+input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  height: 40px;
+  width: 800px;
+  margin-left: 350px;
+  /* margin-top:; */
+  line-height: 50px;
+}
+button {
+  height: 45px;
+  width: 100px;
+  padding-right: 100px;
+}
+.fa-search {
+  padding-left: 40px;
+  color: #000000;
+}
+.about {
+  margin-left: 350px;
+  width: 900px;
+  height: 200px;
+  /* border-style:; */
+  margin-top: 30px;
+  /* background-attachment:; */
+  background-color: #006699;
+}
+.about1 {
+  margin-left: 350px;
+  height: 600px;
+  width: 900px;
+  border: otted #000000;
+  margin-top: 30px;
+  border-style: dotted;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  float: right;
+  padding-right: 20px;
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+  float: right;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.flex-rw {
+  display: flex;
+  flex-flow: row wrap;
+}
+/* //This main is mostly to push the footer to the bottom and for demo purposes. */
+main {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 10em "Oswald", sans-serif;
+  color: rgb(155, 155, 155);
+  line-height: 1;
+}
+footer {
+  background-color: #6633ff;
+  margin-top: auto;
+  width: 100%;
+  height: 100px;
+}
+.footer-list-top {
+  width: 30.333%;
+}
+.footer-list-top > li {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.footer-list-header {
+  padding-left: 110px;
+  /* color: ; */
+  font: 1.5vw "Oswald", sans-serif;
+}
+.footer-list-anchor {
+  font: 1.3em "Open Sans", sans-serif;
+}
+.footer-social-section {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 5px;
+}
+.footer-social-section::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 10px;
+  /* border-top: ; */
+  width: calc(100% - 20px);
+}
+.footer-social-overlap {
+  position: relative;
+  z-index: 0;
+  background: rgb(55, 55, 55);
+  padding: 0 20px;
+}
+.footer-social-connect {
+  display: flex;
+  align-items: center;
+  font: em "Oswald", sans-serif;
+  color: #ffffff;
+}
+.footer-social-small {
+  font-size: 0.6em;
+  padding: 0px 20px;
+}
+.footer-social-overlap > a {
+  font-size: 3em;
+}
+.footer-social-overlap > a:not(:first-child) {
+  margin-left: 0.38em;
+}
+.footer-bottom-section {
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid primary-line-color;
+  margin-top: 10px;
+}
+.footer-bottom-section > div:first-child {
+  margin-right: auto;
+}
+.footer-bottom-wrapper {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+.footer-address {
+  display: inline;
+  font-style: normal;
+}
+@media only screen and (max-width: 768px) {
+  .footer-list-header {
+    font-size: 2em;
+  }
+  .footer-list-anchor {
+    font-size: 1.1em;
+  }
+  .footer-social-connect {
+    font-size: 2.5em;
+  }
+  .footer-social-overlap > a {
+    font-size: 2.24em;
+  }
+  .footer-bottom-wrapper {
+    font-size: 1.3em;
+  }
+}
+@media only screen and (max-width: 568px) {
+  main {
+    font-size: 5em;
+  }
+  .footer-list-top {
+    width: 100%;
+  }
+  .footer-list-header {
+    font-size: 1em;
+  }
+  .footer-list-anchor {
+    font-size: 1.5em;
+  }
+  .footer-social-section {
+    justify-content: center;
+  }
+  .footer-social-section::after {
+    top: 25%;
+  }
+  .footer-social-connect {
+    margin-bottom: 10px;
+    padding: 0 10px;
+  }
+  .footer-social-overlap {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-social-icons-wrapper {
+    width: 100%;
+    padding: 0;
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 20px;
+  }
+  .footer-bottom-section {
+    padding: 0 5px 10px 5px;
+  }
+  .footer-bottom-wrapper {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer-social-overlap > a {
+    margin: auto;
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 0;
+  }
+  .footer-bottom-rights {
+    display: block;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .footer-list-header {
+    font-size: 2.2em;
+  }
+  .footer-list-anchor {
+    font-size: 1.2em;
+  }
+  .footer-social-connect {
+    font-size: 0.4em;
+  }
+  .footer-social-overlap > a {
+    font-size: 2.24em;
+  }
+  .footer-bottom-wrapper {
+    font-size: 1.3em;
+  }
+}
+
+.container {
+  position: relative;
+  width: 300px;
+  margin-top: -150px;
+  padding-right: 50px;
+  height: 100px;
+  margin-right: -30px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
